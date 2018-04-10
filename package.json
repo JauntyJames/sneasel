@@ -1,14 +1,17 @@
 {
   "name": "sneasel",
   "private": true,
-  "dependencies": {
-    "@rails/webpacker": "~3.2.0",
-    "babel-preset-react": "~6.24.1",
-    "prop-types": "~15.6.0",
-    "react": "~15.4.2",
-    "react-dom": "~15.4.2"
-  },
-  "devDependencies": {
+  "engines": {
+      "node": ">=6.0.0",
+      "yarn": ">=0.25.2"
+    },  "dependencies": {
+      "@rails/webpacker": "~3.2.0",
+      "babel-preset-react": "~6.24.1",
+      "prop-types": "~15.6.0",
+      "react": "~15.4.2",
+      "react-dom": "~15.4.2"
+    },
+    "devDependencies": {
     "webpack-dev-server": "2.11.2",
     "enzyme": "~2.9.1",
     "jasmine-ajax": "3.2.0",
